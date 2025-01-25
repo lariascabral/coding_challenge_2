@@ -18,3 +18,14 @@ let scores = [99, 95, 90, 89, 87, 86] ;     // Creation of an array
 
 console.log("Scores:", scores)              // Output: Scores: (6) [99, 96, 90, 89, 87, 86]
 console.log("Scores' average:", scoresAverage)  // Output: Scores' average 91.16666666666667
+
+
+// Task 3 - Employee Records
+
+let employee = { name: "Rose Cabrera", age: 24, 
+    department: "HR", isActive: true } ;     //Creation of an employee profile
+
+employee.department = "Marketing"           //Modifing an existing property in the object
+employee.position = "Technical Manager"     //Adding a new property to the object
+
+console.log(employee)
