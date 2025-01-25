@@ -56,4 +56,20 @@ customers[3] = {
     purchaseAmount: 100.99
 } ;                                      // Adding a new object to the array
 
-console.log("Customer Database:", customers)    // Output: Customer Database: (4) [{…}, {…}, {…}, {…}]
+console.log("Customer Database:", customers) ;   // Output: Customer Database: (4) [{…}, {…}, {…}, {…}]
+
+
+// Task 5 - Order Processing System
+
+let order = [orderID = 1234,  
+            customerName = "Martina Batt", 
+            amount = 1820] ;              //Order account's creation
+
+let calculatedTax = order.map(amount => amount * 0.10) ;
+
+console.log("Order Details |", 
+    "Order ID:", orderID, 
+    "Customer Name:", customerName, 
+    "Amount:", `$${amount}`) ;   // Output: Order Details | Order ID: 1234 Customer Name: Martina Batt Amount: $1820
+
+console.log("Order calculated taxes:", calculatedTax) ;     // Output: Order calculated taxes: (3) [123.4, NaN, 182]
